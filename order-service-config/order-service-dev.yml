@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    name: dev
+    url: jdbc:mysql://39.106.150.23:3306/dev
+    username: root
+    password: root
+redis:
+  host: localhost
+  port: 6379
+  max-idle: 5
+  max-total: 10
+  max-wait-millis: 3000
